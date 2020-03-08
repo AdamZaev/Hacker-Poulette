@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="swiper.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
@@ -16,21 +17,49 @@
     </navbar>
       <div class="logodiv"> <img src="/img/hackers-poulette-logo.png" id="logo"></div>
       <p class='mytext'><img src="/img/1200px-Raspberry_Pi_logo.svg.png" id="raspberry"> best Raspberry accessories</p>
-      <div class="container" id="containeritems">
-        <div class="item" id="item1"></div>
-        <div class="item" id="item2"></div>
+      <div class="container-fluid" id="containeritems">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" id="swipera"> <div class="item" id="item1"></div>
+            <div class="item" id="item3"></div>
+            <div class="item" id="item4"></div>
+           
+            <div class="item" id="item4"></div></div>
+            <div class="swiper-slide" id="swiperb"><div class="item" id="item2"></div> 
         <div class="item" id="item3"></div>
         <div class="item" id="item4"></div>
-        <div class="item" id="item5"></div>
+          <div class="item" id="item4">
+        </div>
+        
+       
+      </div></div>
+    </div>
       </div>
-    
-    <h1 class="about">About Us</p>  
-      <div class="container-fluid" id="aboutcontainer">
+    </div>
+  </div>
+  
+    <h1 class="about">ABOUT US</h1>  
+      
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+      
+      <div class="swiper-slide" id="swiper1"><p class="intro">Wanna know who we are ? Swipe right! </p> </div>
+      <div class="swiper-slide" id="swiper2"><p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices turpis leo, quis tristique risus eleifend feugiat. Etiam auctor ultrices mi, at pellentesque lorem posuere eget. Quisque gravida finibus ante, non mollis nulla hendrerit et. Maecenas mollis molestie arcu. Sed lacinia at nunc id ultricies. Nulla at est sit amet est consectetur sollicitudin. Nam justo felis, pulvinar quis euismod in, lacinia quis est. Proin at nisl nisi. Nam in pellentesque sem. Duis ex odio, consequat vel elementum ac, porttitor ac turpis. Phasellus maximus dolor turpis, vitae vehicula justo interdum sed. Duis rhoncus orci vel commodo laoreet.
+
+        Nullam eget elit ut ligula iaculis scelerisque eu eget mauris. Phasellus vitae posuere ex. Sed metus leo, lacinia et diam vitae, porttitor fringilla ex. Suspendisse sit amet nulla at lorem iaculis lobortis. Aliquam aliquam dolor in volutpat placerat. Interdum et malesuada fames</p> </div>
+      <div class="swiper-slide" id="swiper3"><p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices turpis leo, quis tristique risus eleifend feugiat. Etiam auctor ultrices mi, at pellentesque lorem posuere eget. Quisque gravida finibus ante, non mollis nulla hendrerit et. Maecenas mollis molestie arcu. Sed lacinia at nunc id ultricies. Nulla at est sit amet est consectetur sollicitudin. Nam justo felis, pulvinar quis euismod in, lacinia quis est. Proin at nisl nisi. Nam in pellentesque sem. Duis ex odio, consequat vel elementum ac, porttitor ac turpis. Phasellus maximus dolor turpis, vitae vehicula justo interdum sed. Duis rhoncus orci vel commodo laoreet.
+
+        Nullam eget elit ut ligula iaculis scelerisque eu eget mauris. Phasellus vitae posuere ex. Sed metus leo, lacinia et diam vitae, porttitor fringilla ex. Suspendisse sit amet nulla at lorem iaculis lobortis. Aliquam aliquam dolor in volutpat placerat. Interdum et malesuada fames</p> </div>
         <div class="founderpic"></div>
       <p class="founder"></p>
-      </div>
-      <p class="refund">Want a refund? Need to ask us about a specific thing ?, contact us !</p>
-      <img src="/img/play_for_work-24px (2).svg" id="downarrow">
+      
+      
+    </div>
+    
+    <div class="swiper-pagination"></div>
+  </div>
+      <p class="refund">Want a refund? Need to ask us about a specific thing ?</p>
+     <div class="arrow"> <img src="/img/play_for_work-24px (2).svg" id="downarrow"> </div>
       <div class="mybackground">
    <h2 class="contactus">CONTACT US</h2>
    <form>
@@ -89,16 +118,19 @@
           </div>
        
       </div>
-      
+      <button type="submit" class="btn btn-outline-primary btn-lg btn-block" id="sub">Submit</button>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+     
     </form>
   </div>
 </div>
-
-    
+<script src="swiper.min.js"></script>
+    <script src="script3.js"></script>
+    <script src="script.js"></script>
+   
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glidejs@2.1.0/dist/glide.min.js"></script>
   </body>
 </html>
