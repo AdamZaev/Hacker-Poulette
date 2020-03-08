@@ -121,9 +121,9 @@ filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 10px 10px) drop-shadow(rgba(0, 0, 0, 
 .about {
     font-family: bellota;
     font-weight: bolder;
-    padding-top: 60px;
+    padding-top: 100px;
     font-size: 40px;
-    
+   
     text-align: center;
   
 }
@@ -171,12 +171,13 @@ filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 10px 10px) drop-shadow(rgba(0, 0, 0, 
 }
 
 .refund {
-    margin-top: 40px; 
+    padding-top: 40px; 
     font-size: 40px;
     font-family: bellota;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: whitesmoke;
    
 }
 
@@ -357,6 +358,7 @@ footer {
 
 .intro {
   font-family: bellota;
+  font-weight: bolder;
   font-size: 55px;
   text-align: center;
   margin-top: 60px;
